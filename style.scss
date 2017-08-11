@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter|Orbitron|Righteous|Exo|Mogra|Tangerine|Acme|OpenSans);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+$pColor: white;
+$blue: #8080ff;
+$red: #ff3333;
+$pFont: Acme, serif;
+* {box-sizing: border-box; outline: none;}
+a {text-decoration: none; color: white;}
+i {color: white;}
+body {margin: 0 auto; background-color: #515A5A;}
+button {cursor: pointer;}
+.main {margin: 0 auto; width: 800px; position:relative; padding: 20px;}
+.controlBack {background-color: black; width: 250px;height: 250px;overflow: auto;margin: auto;position: absolute;top: 0; left: 0; bottom: 0; right: 0; z-index: 1;border-radius: 100%; text-align: center;}
+.simon {color: white;font-family: Acme, serif; font-weight: 900; font-size: 50px;}
+.controls {display: -webkit-flex;display: flex;background-color: white; color: black; width: 250px; height: 100px; margin: auto;position: absolute;top: 0; left: 0; bottom: 0; right: 0; z-index: 2; overflow: hidden; }
+#counter {background-color: black;width: 110px; height: 75px; margin: 12px 10px 10px 15px; color: red; font-family: Orbitron, serif; font-weight: 900; font-size: 55px;}
+.buttons {width: 120px; height: 75px;margin: 12px 15px 10px 5px;}
+#startBtn {font-family: Orbitron, serif; font-size: 20px;background-color: pink; height: 40px;width: 90px;border-radius: 10px;border: 3px solid red;}
+#resetBtn {font-family: Orbitron, serif; font-size: 16px;background-color: cornFlowerBlue; height: 30px;width: 90px;border-radius: 10px;border: 3px solid black;}
+#strictBtn {font-family: Orbitron, serif; font-size: 16px;background-color: yellow; height: 30px;width: 90px;border-radius: 10px;border: 3px solid black; margin: 5px;}
+.flex-container {margin: 0 auto;display: -webkit-flex;display: flex;width: 600px;}
+.flex-item {width: 50%;height: 300px; cursor: pointer;}
+#blue {background-color: blue; border-radius: 100% 0 0 0; border: solid 2px;}
+#yellow {background-color: yellow; border-radius: 0 100% 0 0; border: solid 2px;}
+#red {background-color: red; border-radius: 0 0 0 100%; border: solid 2px;}
+#green {background-color: green; border-radius: 0 0 100% 0; border: solid 2px;}
+.light {opacity: 0.4; border: solid white 4px;}
+.footer {position:fixed;bottom:5px;width:100%;height:auto;margin-top:40px;text-align:center;font-family: Acme, serif; font-size: calc(40% + .5vw);}
+.led-on {width: 12px;height: 12px;background-color: red;border-radius: 50%;box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, red 0 2px 12px;}
+.led-off {width: 12px;height: 12px;background-color: black;border-radius: 50%;box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, black 0 2px 12px;}
